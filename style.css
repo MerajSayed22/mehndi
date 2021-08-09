@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*Background-image: url("backcheck12.jpg");
+    background-repeat: round;*/
+    font-family: 'Baloo Chettan 2', cursive;
+    
+    
+    
+    }
+
+.head {
+
+    background-image : url("header4.png");
+    
+    
+}
+
+.head img {
+
+    margin-top: -40px;
+}
+
+
+#hero {
+
+    margin-top: 250px;
+    text-align: center;
+    margin-bottom: 200px;
+    opacity: 1;
+    background: rgb(3, 70, 3);
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px 10px rgb(11, 104, 11);
+
+
+}
+
+#image1 {
+
+    text-align: right;
+    margin-top: -230px;
+    margin-right:80px;
+    box-shadow: 5px 5px 10px 15px pink;
+    
+}
+
+.text {
+
+    margin-top: -600px;
+    margin-left: 40px;
+    width: 500px;
+    height: 500px;
+}
+
+#image2 {
+
+    margin-top: 400px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 10px 10px cyan;
+
+}
+
+
+
+
+#menubar {
+
+    margin-top: -100px;
+    margin-bottom: 150px;
+    text-align: right;
+
+}
+
+#menubar li {
+
+    display: inline;
+    
+    padding: 18px;
+    margin: 0px;
+    margin-right: 50px;
+    border-right: cadetblue;
+    background: rgb(243, 92, 117);
+    color: white;
+    border-radius: 30px;
+    margin-left: 100px;
+    
+}
+
+#menubar li:hover {
+    animation-name: background-color;
+    animation-duration: 2000ms;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: #13c54e;
+        
+    }
+}
+
+
+#htext{
+
+    margin-top: -100px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 100px;
+    color: #F35C75;
+    background: white;
+}
+
+
+#image12 {
+
+        margin-top: -300px;
+        font-size: 30px;
+        margin-left: 30px;
+        color: #0061b1;
+
+    }
+
+#video1 {
+
+    margin-right: 40px;
+    margin-top: 150px;
+    padding: -50px;
+    box-shadow: 5px 5px 10px 5px pink;
+    text-align: right;
+    padding: 10px;
+    
+    
+}
+
+#image21 {
+
+    text-align: right;
+    font-size: 30px;
+    margin-top: -250px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+    color: #F35C75;
+}
+
+#videotext {
+
+    margin-top: -350px;
+    margin-left: 20px;
+    color: blueviolet;
+    font-size: 20px;
+    margin-bottom: 350px;
+}
+
+.indianculture {
+
+    text-align: center;
+    color: Black;
+    font-size: 30px;
+    background: gold;
+    border-radius: 30px;
+    padding: 40px;
+    
+}
+
+#inform {
+
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 100px;
+    color: tomato;
+    font-size: 30px;
+    font-size: 40px;
+}
+
+#footimage {
+
+    margin-top: -230px;
+    margin-left: 300px;
+    
+    
+    
+}
+
+#yourdesign {
+
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 150px;
+
+
+}
+
+#yourdesigntext {
+
+    margin-top: -200px;
+    margin-left: 300px;
+    font-size: 40px;
+
+}
+
+#covidtext {
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background: green;
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 150px;
+    
+}
+
+.tempcheck {
+
+    
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+
+.temptext {
+
+    
+    text-align: right;
+    color: green;
+    font-size: 40px;
+    margin-right: 200px;
+    margin-top: -300px;
+    margin-bottom: 250px;
+
+}

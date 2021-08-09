@@ -1,0 +1,36 @@
+.hero-text {
+
+    margin-top: -100px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 100px;
+    color: #f06b6b;
+    background-color: green;
+    opacity: 1;
+
+
+<div class = hero-text><h1>Wanna get a stunning Mehndi design to flaunt your style...</h1>
+	<h2>Introducing on-demand Mehndi Service at the leisure of your home</h2>
+	<h2>Book same day Mehndi Artist in just 3 simple clicks</h2>
+</div>
+
+
+use it somewhere
+
+
+<h2>Introducing on-demand Mehndi Service at the leisure of your home</h2>
+	<h2>Book same day Mehndi Artist in just 3 simple clicks</h2>
+
+
+
+    ruma image class
+
+    #image3 {
+
+    text-align: right;
+    margin-top: 100px;
+    margin-right:80px;
+    
+    box-shadow: 5px 5px 10px 10px pink;
+}
