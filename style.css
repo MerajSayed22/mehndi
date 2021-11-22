@@ -99,16 +99,7 @@
 }
 
 
-#htext{
 
-    margin-top: -100px;
-    margin-bottom: 300px;
-    text-align: center;
-    font-size: 25px;
-    line-height: 100px;
-    color: #F35C75;
-    background: white;
-}
 
 
 #image12 {
@@ -117,6 +108,7 @@
         font-size: 30px;
         margin-left: 30px;
         color: #0061b1;
+        border-radius: 50px;
 
     }
 
@@ -228,4 +220,15 @@
     margin-top: -300px;
     margin-bottom: 250px;
 
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+  margin-right: 90px;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }

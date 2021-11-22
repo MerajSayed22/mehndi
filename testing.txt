@@ -1,0 +1,49 @@
+container {
+    box-sizing: content-box;
+    background-color: #ffff;
+    
+    font-size: 100px;
+    text-align: center;
+    color: green;
+    margin-top: 300px;
+    font-family: 'Hurricane', cursive;
+    overflow: hidden;
+    margin-left: -300px;
+    
+
+}
+
+@keyframes spin_words {
+
+    10% {
+        transform: translateY(-112%);
+    }
+
+    25% {
+        transform: translateY(-100px);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-312%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    85% {
+        transform: translateY(-412%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+
+    <div id ="servicevideo"> <video width="500" height="600" autoplay muted repeat>
+            <source src="vid1.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video></div>

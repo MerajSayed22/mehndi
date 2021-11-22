@@ -1,0 +1,344 @@
+*,
+*:before,
+*:after{
+     margin: 0px;
+     padding:0px;
+     box-sizing: border-box;
+     font-family: 'Hurricane', cursive;
+     font-weight: 500;
+
+}
+body {
+    background-color: white; 
+    display: grid;
+    place-items: center;
+    
+}
+
+
+
+.container {
+    box-sizing: content-box;
+    background-color: inherit;
+    border-radius: 8px;
+    height: 70px;
+    padding: 40px 20px;
+    display: flex;
+    margin-bottom: -400px;
+    color: green;
+    font-size: 60px;
+
+
+
+}
+.words {
+
+    overflow: hidden;
+    
+}
+
+span {
+    color: green;
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    animation: spin_words 8s infinite;
+
+}
+
+@keyframes spin_words {
+
+    10% {
+        transform: translateY(-112%);
+    }
+
+    25% {
+        transform: translateY(-100px);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-312%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    85% {
+        transform: translateY(-412%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.tagline {
+    color: fuchsia;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 60px;
+}
+
+.floralborder1 {
+    margin-left: -510px;
+    margin-top: -400px;
+    
+}
+
+.floralborder2 {
+    margin-top: -1480px;
+    margin-right: -650px;
+}
+
+.floralborder3 {
+    margin-top: -1000px;
+    margin-right: -1250px;
+}
+
+.floralborder4 {
+    margin-top: -450px;
+    margin-right: -880px;
+}
+
+.floralborder5 {
+    margin-top: -300px;
+    margin-right: 50px;
+}
+
+.floralborder6 {
+    margin-top: -450px;
+    margin-right: 650px;
+}
+
+.heroimage {
+
+    margin-right: 700px;
+    margin-top: 200px;
+    border-radius: 8px;
+    
+
+}
+.herotext {
+    font-size: 42px;
+    margin-left: 650px;
+    margin-top: -700px;
+    
+}
+
+.bridal {
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.bridaltext {
+    margin-right: 600px;
+    margin-top: -700px;
+    font-size: 42px;
+}
+.bridal1 {
+    margin-right: 700px;
+    margin-top: 100px;
+
+}
+.bridal1text {
+    margin-right: -500px;
+    margin-top: -700px;
+    font-size: 42px;
+}
+.servicevideotext {
+    font-size: 42px;
+    margin-top: 150px;
+    margin-right: 600px;
+    color: black;
+    
+}
+
+.servicevideo {
+     margin-left: 700px;
+     margin-top: -450px;
+}
+
+.calltoaction {
+    border: 8px;
+    border-radius: 0% 30%;
+    border-style: solid;
+    border-color: rgb(144, 75, 209);
+    padding: 10px;
+    color: green;
+    background: white(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+.designers {
+    margin-left: 700px;
+    font-size: 42px;
+}
+
+.designersimg {
+    margin-right: 500px;
+    margin-top: -300px;
+}
+
+.yourdesignhere{
+
+    margin-top: 150px;
+    margin-left: 800px;
+}
+
+.designheretext {
+    font-size: 42px;
+    margin-top: -400px;
+    margin-left: -300px;
+
+}
+
+.tempcheck {
+    margin-left: -700px;
+    margin-top: 100px;
+}
+
+.tempchecktext {
+    font-size: 42px;
+    margin-left: 600px;
+    margin-top: -700px;
+}
+
+
+
+
+.button-29 {
+  margin-top: 200px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 60px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+a {
+    text-decoration: none;
+    font-family: "JetBrains Mono",monospace;
+    font-size: 30px;
+    color: white;
+
+}
+
+.foot {
+    font-size: 20px;
+    margin-top: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    color: black;
+    
+}
+/* CSS for Plan Page */
+.heading {
+
+    color: green;
+    font-size: 40px;
+    margin-top: 30px;
+
+} 
+
+.select {
+    color: white;
+    font-size: 35px;
+    margin-top: 100px;
+    border: 3px solid hotpink;
+    background: hotpink;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    
+}
+
+.bridalplan {
+
+    font-size: 30px;
+    border: 13px solid blueviolet;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: blueviolet;
+    margin-top: 200px;
+    color: white;
+    margin-left: -650px;
+    padding: 20px;
+      
+    
+    
+    
+
+}
+
+.directives {
+    font-size: 15px;
+
+}
+
+.pic1 {
+
+    margin-left: 700px;
+    margin-top: -350px;
+    
+}
+
+.bridalplan2 {
+    font-size: 30px;
+    border: 13px solid green;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: green;
+    margin-top: 100px;
+    color: white;
+    margin-right: -600px;
+    padding: 20px;
+      
+}
+
+.pic2 {
+
+    margin-right: 700px;
+    margin-top: -300px;
+    
+}
+
