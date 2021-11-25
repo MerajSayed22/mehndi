@@ -328,10 +328,10 @@ a {
     border-style: solid;
     border-radius: 8px;
     background-color: green;
-    margin-top: 100px;
+    margin-top: 200px;
     color: white;
-    margin-right: -600px;
     padding: 20px;
+    margin-right: -650px;
       
 }
 
@@ -342,3 +342,55 @@ a {
     
 }
 
+.casual {
+    font-size: 30px;
+    margin-top: 200px;
+    border: 13px solid purple;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    margin-left: -550px;
+}
+
+.casualpic {
+
+    margin-left: 700px;
+    margin-top: -350px;
+
+}
+
+.solo {
+    margin-right: 700px;
+    margin-top: 200px;
+}
+
+.solotext{
+    font-size: 30px;
+    margin-top: -400px;
+    border: 13px solid hotpink;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: hotpink;
+    color: white;
+    padding: 20px;
+    margin-right: -550px;
+}
+
+.group {
+    font-size: 30px;
+    margin-top: 200px;
+    border: 13px solid red;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin-left: -550px;
+}
+
+.grouppic {
+    margin-left: 700px;
+    margin-top: -350px;
+}
