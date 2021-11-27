@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <script src="Script.js"></script>
+    <style>
+        .headinglogin {
+            text-align: center;
+            color: green;
+            font-size: 62px;
+            font-family: 'Hurricane', cursive;
+            margin-top: 50px;
+
+        }
+
+        .foot {
+            font-size: 20px;
+            margin-top: 700px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.2;
+            color: black;
+            text-align: center;
+
+
+        }
+
+        .booktitile {
+            color: blue;
+            text-align: center;
+            font-size: 42px;
+            margin-top: 100px;
+            font-family: Inter,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+
+        }
+
+        span {
+            color: hotpink;
+        }
+
+        .loginback {
+            text-align: right;
+            margin-right: 50px;
+            margin-top: 200px;
+
+
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            /* Full width */
+            padding: 12px;
+            /* Some padding */
+            border: 1px solid #ccc;
+            /* Gray border */
+            border-radius: 4px;
+            /* Rounded borders */
+            box-sizing: border-box;
+            /* Make sure that padding and width stays in place */
+            margin-top: 6px;
+            /* Add a top margin */
+            margin-bottom: 16px;
+            /* Bottom margin */
+            resize: vertical
+                /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Add a background color and some padding around the form */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-top: -600px;
+            display:flex;
+        }
+    </style>
+</head>
+<div class="headinglogin">Online <span>Mehndi</span></div>
+<div class="booktitile">Book Appointment for Mehndi Artist.</div>
+<div class="loginback"><img src="loginback.png" width="700" height="800" style="border-radius: 0% 50%;"></div>
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+
+<body>
+
+</body>
+<footer>
+
+    <div class="foot">&copy; Copyright 2021 by Online Mehndi. All Rights Reserved.<br>
+        Online Mehndi is Powered by Culfa mediatech pvt. ltd.</div>
+</footer>
+
+</html>
