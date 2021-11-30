@@ -1,187 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Booking</title>
-<link rel="stylesheet" href="css/style.css">
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
 </head>
 
 <style>
-body {
-font-family: 'Raleway', sans-serif;
-font-weight: 400;
-color: #fff;
-letter-spacing: 1px;
-background-image: url("loginpageback.jpg");
-}
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 1px;
+        background-image: url("loginpageback.jpg");
+    }
 
-.container {
-background-color: #fafafa;
-margin: 200px;
-box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
-display: grid;
-grid-template-columns: 40% 60%;
-opacity: 0.8;
-}
+    .container {
+        background-color: #fafafa;
+        margin: 200px;
+        box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+        display: grid;
+        grid-template-columns: 40% 60%;
+        opacity: 0.8;
+    }
 
-.container-time {
-background-color: rgba(0, 0, 0, .95);
-padding: 50px;
-outline: 3px dashed #998100;
-outline-offset: -30px;
-text-align: center;
-}
+    .container-time {
+        background-color: rgba(0, 0, 0, .95);
+        padding: 50px;
+        outline: 3px dashed #998100;
+        outline-offset: -30px;
+        text-align: center;
+    }
 
-.heading {
-font-size: 35px;
-text-transform: uppercase;
-}
+    .heading {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
 
-.heading-days {
-color:#998100;
-font-size: 30px;
+    .heading-days {
+        color: #998100;
+        font-size: 30px;
 
-}
+    }
 
-.heading-phone {
-font-size: 20px;
-}
+    .heading-phone {
+        font-size: 20px;
+    }
 
-.container-form {
-padding: 20px 0;
-margin: 0 auto;
-color: #000;
-}
+    .container-form {
+        padding: 20px 0;
+        margin: 0 auto;
+        color: #000;
+    }
 
-form {
-display: grid;
-grid-row-gap: 20px;
-}
-form p {
-font-weight: 600;
-}
-.form-field {
-display: flex;
-justify-content: space-between;
-}
+    form {
+        display: grid;
+        grid-row-gap: 20px;
+    }
 
-input,select {
-padding: 10px 15px;
-}
+    form p {
+        font-weight: 600;
+    }
 
-.btn {
-background-color: rgba(0, 0, 0, .95);
-color: #fff;
-padding: 10px 20px;
-border: none;
-font-size: 18px;
-border-radius: 100px;
--webkit-border-radius: 100px;
--moz-border-radius: 100px;
--ms-border-radius: 100px;
--o-border-radius: 100px;
-box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
-cursor: pointer;
-transition: all .3s;
--webkit-transition: all .3s;
--moz-transition: all .3s;
--ms-transition: all .3s;
--o-transition: all .3s;
-}
+    .form-field {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.btn:hover {
-transform: scale(1.03);
--webkit-transform: scale(1.03);
--moz-transform: scale(1.03);
--ms-transform: scale(1.03);
--o-transform: scale(1.03);
-box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
-}
-.start{
-font-family: 'Hurricane', cursive;
-color: pink;
-font-size: 40px;
-margin-top: 30px;
-text-align: center;
-font-size: 62px;
+    input,
+    select {
+        padding: 10px 15px;
+    }
 
-} 
-.foot {
-    font-size: 20px;
-    margin-top: 700px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.2;
-    color: black;
-   
-    text-align: center;
+    .btn {
+        background-color: rgba(0, 0, 0, .95);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        font-size: 18px;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+    }
 
-    
-}
+    .btn:hover {
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+    }
 
+    .start {
+        font-family: 'Hurricane', cursive;
+        color: pink;
+        font-size: 40px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 62px;
+
+    }
+
+    .foot {
+        font-size: 20px;
+        margin-top: 700px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 1.2;
+        color: black;
+
+        text-align: center;
+
+
+    }
 </style>
+
 <body>
 
-<div class="start">Online Mehndi</div>
-<div class="container">
-<div class="container-time">
-<h2 class="heading">Mehndi Online</h2>
-<h3 class="heading-days">Book Mehndi artist</h3>
-<p>from 9AM to 9PM</p>
+    <div class="start">Online Mehndi</div>
+    <div class="container">
+        <div class="container-time">
+            <h2 class="heading">Mehndi Online</h2>
+            <h3 class="heading-days">Book Mehndi artist</h3>
+            <p>from 9AM to 9PM</p>
 
-<h3 class="heading-days">Without any hassle and get the designs you love</h3>
+            <h3 class="heading-days">Without any hassle and get the designs you love</h3>
 
-<hr>
+            <hr>
 
-<h4 class="heading-phone">For any quries please call Us: (+91) 7977003995</h4>
-</div>
+            <h4 class="heading-phone">For any quries please call Us: (+91) 7977003995</h4>
+        </div>
 
-<div class="container-form">
-<form action="#">
-<h2 class="heading heading-yellow">Book your appointment</h2>
+        <div class="container-form">
+            <form action="#">
+                <h2 class="heading heading-yellow">Book your appointment</h2>
 
-<div class="form-field">
-<p>Your Name</p>
-<input type="text" placeholder="Your Name">
-</div>
-<div class="form-field">
-<p>Your email</p>
-<input type="email" placeholder="Your email">
-</div>
-<div class="form-field">
-    <p>Mobile No.</p>
-    <input type="Mobile No."placeholder="Your Mobile No.">
+                <div class="form-field">
+                    <p>Your Name</p>
+                    <input type="text" placeholder="Your Name">
+                </div>
+                <div class="form-field">
+                    <p>Your email</p>
+                    <input type="email" placeholder="Your email">
+                </div>
+                <div class="form-field">
+                    <p>Mobile No.</p>
+                    <input type="Mobile No." placeholder="Your Mobile No.">
+                </div>
+                <div class="form-field">
+                    <p>Date</p>
+                    <input type="date">
+                </div>
+                <div class="form-field">
+                    <p>Time<br>(Please Select the time <br>between 9AM to 9PM)</p>
+                    <input type="time">
+                </div>
+                <div class="form-field">
+                    <p>How many people?</p>
+                    <select name="select" id="#">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                        <option value="3">3 persosn</option>
+                        <option value="4">4 persons</option>
+                        <option value="5">5 persons</option>
+                        <option value="5+">5+ persons</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <p>Address</p>
+                    <input type="Address" placeholder="Your Address">
+                </div>
+
+                <button class="btn">Submit</button>
+            </form>
+        </div>
     </div>
-<div class="form-field">
-<p>Date</p>
-<input type="date">
-</div>
-<div class="form-field">
-<p>Time<br>(Please Select the time <br>between 9AM to 9PM)</p>
-<input type="time">
-</div>
-<div class="form-field">
-<p>How many people?</p>
-<select name="select" id="#">
-<option value="1">1 person</option>
-<option value="2">2 persons</option>
-<option value="3">3 persosn</option>
-<option value="4">4 persons</option>
-<option value="5">5 persons</option>
-<option value="5+">5+ persons</option>
-</select>
-</div>
-
-<div class="form-field">
-    <p>Address</p>
-    <input type="Address"placeholder="Your Address">
-    </div>
-
-<button class="btn">Submit</button>
-</form>
-</div>
-</div>
 
 
 </body>
